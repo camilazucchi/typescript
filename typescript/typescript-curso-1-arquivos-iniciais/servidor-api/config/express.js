@@ -3,6 +3,7 @@
 var express = require('express')
     ,app = express()
     ,routes = require('../app/routes')
+    // eslint-disable-next-line no-unused-vars
     ,path =  require('path')
     ,bodyParser = require('body-parser');
 
