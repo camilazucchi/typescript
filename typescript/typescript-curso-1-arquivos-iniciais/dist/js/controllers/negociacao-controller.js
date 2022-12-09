@@ -7,6 +7,7 @@ export class NegociacaoController {
         this.inputValor = document.querySelector('#valor');
     }
     // pega os valores dos inputs:
+    
     adiciona() {
         const negociacao = this.criaNegociacao();
         console.log(negociacao);
@@ -19,6 +20,7 @@ export class NegociacaoController {
         const valor = parseFloat(this.inputValor.value);
         return new Negociacao(date, quantidade, valor);
     }
+    
     limpaFormulario() {
         this.inputData.value = '';
         this.inputQuantidade.value = '';

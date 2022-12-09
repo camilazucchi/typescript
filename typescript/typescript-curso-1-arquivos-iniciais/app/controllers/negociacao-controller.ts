@@ -27,6 +27,7 @@ export class NegociacaoController {
         return new Negociacao(date, quantidade, valor);
     }
 
+    // limpa o formulário
     limpaFormulario(): void {
         this.inputData.value = '';
         this.inputQuantidade.value = '';
